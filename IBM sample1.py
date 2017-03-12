@@ -26,7 +26,6 @@ for i in range(1,int(N)+1):
     else:
         output.append(i)
         #print i
-
     #if i!= int(N):
         #print",",
 k=0
