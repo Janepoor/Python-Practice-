@@ -32,10 +32,12 @@ def longestCommonPrefix( strs):
                 j += 1
                 print j
 
-        print strs[0][0:j]
+            initial=min(j,initial)
 
-        return strs[0][0:j]
+        print strs[0][0:initial]
+
+        return strs[0][0:initial]
 
 
 
-longestCommonPrefix(['ab','asadbss','abbbbc','abbbcs','abbbsda'])
+longestCommonPrefix(['ab','b','abbbbc','abbbcs','abbbsda'])

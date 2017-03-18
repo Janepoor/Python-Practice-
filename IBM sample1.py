@@ -3,7 +3,6 @@
 from __future__ import print_function
 
 
-
 N,p,q,=raw_input("input N and p and q, seperate by a space ").split(' ')
 
 
