@@ -1,7 +1,5 @@
 # Given a number N and p,q
 
-from __future__ import print_function
-
 
 N,p,q,=raw_input("input N and p and q, seperate by a space ").split(' ')
 
@@ -24,12 +22,7 @@ for i in range(1,int(N)+1):
         #print"OUT"
     else:
         output.append(i)
-        #print i
-    #if i!= int(N):
-        #print",",
-k=0
-for x in output:
-    print (x, end='')
-    k+=1
-    if k != int(N):
-        print (",", end='')
+
+output = ','.join(str(k) for k in output)
+
+print output
