@@ -15,7 +15,6 @@ def parse(str):
     for i in array:
         if'(' in i:
             array.remove(i)
-
     print array
     for i in array:
         i=i.rstrip(')')
