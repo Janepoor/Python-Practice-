@@ -1,0 +1,7 @@
+#Python Knowledge Summary
+
+1, python memory management (内存管理)
+---Reference counting 引用计数
+---Garbage Collection 垃圾回收
+---内存池
+
