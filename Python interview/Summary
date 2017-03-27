@@ -5,3 +5,19 @@
 ---Garbage Collection 垃圾回收
 ---内存池
 
+所有的变量都可以理解是内存中一个对象的“引用”，或者，也可以看似c中void*的感觉
+
+
+
+
+
+19, 求两个树是否相同
+
+
+def isSametree(p,q):
+	if p == None and q == None:
+		return False
+	elif p and q:
+		return True if p.value == q.value and isSametree(p.leftchild,q.leftchild) and isSametree(p.leftchild,q.leftchild)
+	else: 
+		return False
